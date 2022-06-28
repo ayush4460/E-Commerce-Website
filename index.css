@@ -1,0 +1,64 @@
+*{
+    font-family: 'Poppins','Open Sans';
+}
+.clip-cross{
+    clip-path: circle(50% at 50% 50%);
+}
+.special{
+    float: left;
+}
+.aboutMe{
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.feet{
+  background-color: white;
+}
+.flush{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align: center;
+  background-color: rgba(86, 97, 97, 0.156);
+}
+.clip-cross{
+  clip-path: circle(50% at 50% 50%);
+}
+.call,.mail{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.65);
+}
+.call:hover{
+  color: black;
+}
+.mail:hover{
+  color: black;
+}
+@keyframes shine{
+  0%{
+    color: rgb(255, 0, 0);
+  }
+  100%{
+    color: rgb(0, 167, 36);
+  }
+}
+.shine{
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-name: shine;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.responce{
+  max-width: 25vh;
+  height: auto;
+}
+.resp{
+  max-width: 5vh;
+  height: auto;
+}
