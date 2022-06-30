@@ -87,25 +87,7 @@
       </footer>
 
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                Host : "smtp.gmail.com",
-                Username : "ayushzala4460@gmail.com",
-                Password : "E0447E44C5BB86FD2878C9B488BA3EC40E3F",
-                To : 'ayushgzala@gmail.com',
-                From : "ayushzala4460@gmail.com",
-                Subject : "New Contact Form Enquiry",
-                Body : "Name: " + document.getElementById("name").value
-                     + "<br> Email: " + document.getElementById("email").value
-                     + "<br> Phone No: " + document.getElementById("phone").value
-                     + "<br> Message From User: " + document.getElementById("message").value
-            }).then(
-            message => alert("Your Responce was sent successfully ...")
-            );
-        }
-    </script>
+
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
 </body>
 </html>
