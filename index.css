@@ -47,7 +47,7 @@
   }
 }
 .shine{
-  animation-duration: 4s;
+  animation-duration: 2.5s;
   animation-delay: 0s;
   animation-name: shine;
   animation-iteration-count: infinite;
